@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos de la Panadería</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaU1h05sA23HX1q3g7bWefj9O/bbUvxrEH3/j8I5JDvXwW1RY1NdHfJwstO" crossorigin="anonymous">
+    
+    <!-- Estilos CSS Internos -->
+    <style>
+        /* Estilo para las tablas */
+        table {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            overflow: hidden;
+            margin-bottom: 1.5rem;
+        }
+
+        /* Estilo de bordes y espacio en celdas */
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: center;
+        }
+
+        /* Fondo de encabezado */
+        thead th {
+            background-color: #f8f9fa;
+            color: #333;
+            font-weight: bold;
+        }
+
+        /* Botón de Agregar al Carrito */
+        .btn-agregar {
+            background-color: #4414d5;
+            color: white;
+            border: none;
+        }
+        .btn-agregar:hover {
+            background-color: #4267eb;
+        }
+
+        /* Título de cada categoría */
+        h2 {
+            color: #5a5a5a;
+            margin-top: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container my-5">
+        <h1 class="text-center mb-4">Panadería Argentina</h1>
+        <h2>Conocé nuestros mejores productos de Argentina</h2>
+        <br>
+
+        <!-- Tabla de Facturas -->
+        <div class="table-responsive">
+            <h2 class="text-center">Facturas</h2>
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Producto</th>
+                        <th>Descripción</th>
+                        <th>Precio</th>
+                        <th>Comprá Ahora</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Medialuna</td>
+                        <td>Clásica medialuna de manteca</td>
+                        <td>$750</td>
+                        <td><button class="btn btn-agregar">Agregar al carrito</button></td>
+                    </tr>
+                    <tr>
+                        <td>Vigilante</td>
+                        <td>Factura rellena de dulce de leche</td>
+                        <td>$900</td>
+                        <td><button class="btn btn-agregar">Agregar al carrito</button></td>
+                    </tr>
+                    <tr>
+                        <td>Churro</td>
+                        <td>Churro con azúcar</td>
+                        <td>$850</td>
+                        <td><button class="btn btn-agregar">Agregar al carrito</button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Tabla de Tartas -->
+        <div class="table-responsive">
+            <h2 class="text-center">Tartas</h2>
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Producto</th>
+                        <th>Descripción</th>
+                        <th>Precio</th>
+                        <th>Comprá Ahora</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Tarta de Jamón y Queso</td>
+                        <td>Rellena de jamón y queso tybo derretido</td>
+                        <td>$3.200</td>
+                        <td><button class="btn btn-agregar">Agregar al carrito</button></td>
+                    </tr>
+                    <tr>
+                        <td>Tarta de Espinaca</td>
+                        <td>Rellena de espinaca, huevo y queso</td>
+                        <td>$3.500</td>
+                        <td><button class="btn btn-agregar">Agregar al carrito</button></td>
+                    </tr>
+                    <tr>
+                        <td>Tarta de Pollo</td>
+                        <td>Rellena de pollo, cebolla y queso</td>
+                        <td>$3.500</td>
+                        <td><button class="btn btn-agregar">Agregar al carrito</button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Tabla de Sandwiches de Miga -->
+        <div class="table-responsive">
+            <h2 class="text-center">Sandwiches de Miga</h2>
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Producto</th>
+                        <th>Descripción</th>
+                        <th>Precio</th>
+                        <th>Comprá Ahora</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Jamón y Queso</td>
+                        <td>Clásico sándwich de jamón y queso</td>
+                        <td>$1.500</td>
+                        <td><button class="btn btn-agregar">Agregar al carrito</button></td>
+                    </tr>
+                    <tr>
+                        <td>Tomate y Lechuga</td>
+                        <td>Sándwich fresco de tomate y lechuga</td>
+                        <td>$1.500</td>
+                        <td><button class="btn btn-agregar">Agregar al carrito</button></td>
+                    </tr>
+                    <tr>
+                        <td>Atún y Mayonesa</td>
+                        <td>Relleno de atún y mayonesa</td>
+                        <td>$1.800</td>
+                        <td><button class="btn btn-agregar">Agregar al carrito</button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <p> ¡Llevá ya tu producto favorito de la panadería argentina! </p>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-q1qQp+8VBd6ZbMm8KcgFxm7FtKpQerifmdBbBf9B6LFysrJk5yV4kChmLgC+2i8u" crossorigin="anonymous"></script>
+</body>
+</html>
